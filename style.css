@@ -1,0 +1,28 @@
+body {
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+}
+
+header {
+    text-align: center;
+    font-size: 20pt;
+}
+
+header h1 img {
+    display: block;
+}
+
+header h1 {
+    font-size: 20pt;
+}
+
+.chip:hover {
+    cursor: pointer;
+    background-color: gray;
+}

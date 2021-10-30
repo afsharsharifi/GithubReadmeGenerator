@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README.md Generator</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- My Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col s12 header-div">
+                <h1>
+                    <a href="#">README.md Generator</a>
+                </h1>
+                <button class="btn transparent black-text"><i class="material-icons left">star</i>Star</button>
+                <button class="btn transparent black-text"><i class="material-icons left">create</i>Fork</button>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <main class="container">
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <h4>Header</h4>
+                    <div class="input-field col xl6 l6 m6 s12">
+                        <i class="material-icons prefix">attachment</i>
+                        <input id="icon_prefix" type="text" class="validate" value="/images/logo.png" disabled>
+                        <label for="icon_prefix">Logo Path</label>
+                    </div>
+                    <div class="input-field col xl6 l6 m6 s12">
+                        <i class="material-icons prefix">title</i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">Title</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">description</i>
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Desciption</label>
+                    </div>
+                    <h5>Technologies</h5>
+                    <h6>Programming, scripting, and markup languages</h6>
+                    <div class="programming-lang">
+                        <div class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python"> Python
+                        </div>
+                        <div class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript"> JavaScript
+                        </div>
+                        <div class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart"> Dart
+                        </div>
+                        <div class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML"> HTML
+                        </div>
+                        <div class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS"> CSS
+                        </div>
+                    </div>
+                    <h6>Web Frameworks</h6>
+                    <div class="web-frameworks">
+                        <div class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="Flask"> Flask
+                        </div>
+                        <div class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter"> Flutter
+                        </div>
+                        <div class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="ASP.net"> ASP.net
+                        </div>
+                        <div class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg" alt="Django"> Django
+                        </div>
+                        <div class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React.js"> React.js
+                        </div>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">description</i>
+                        <textarea id="textarea2" class="materialize-textarea"></textarea>
+                        <label for="textarea2">Desciption</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+    <!-- My Script -->
+    <script src="scripts.js "></script>
+</body>
+
+</html>
