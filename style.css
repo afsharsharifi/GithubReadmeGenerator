@@ -24,5 +24,8 @@ header h1 {
 
 .chip:hover {
     cursor: pointer;
-    background-color: gray;
+}
+
+.selected-skill {
+    background-color: aqua;
 }
