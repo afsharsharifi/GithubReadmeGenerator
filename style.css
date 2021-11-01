@@ -18,6 +18,15 @@ header h1 img {
     display: block;
 }
 
+.generate {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: black;
+}
+
 header h1 {
     font-size: 20pt;
 }
@@ -28,4 +37,23 @@ header h1 {
 
 .selected-skill {
     background-color: grey;
+}
+
+.tec-div {
+    padding: 20px;
+}
+
+.tec-div h6 {
+    font-size: large;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.chip img {
+    padding: 5px;
+}
+
+.header-div {
+    margin-bottom: 50px;
 }
