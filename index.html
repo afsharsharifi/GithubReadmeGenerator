@@ -20,8 +20,8 @@
     <header class="blue-grey">
         <div class="row">
             <div class="col s12 header-div">
-                <h1>
-                    README Generator
+                <h1 class="header-title">
+                    ReadMe Generator
                 </h1>
                 <button class="btn blue black-text"><i class="material-icons left">star</i>Star</button>
                 <button class="btn blue black-text"><i class="material-icons left">create</i>Fork</button>
@@ -35,13 +35,13 @@
                     <h4>Header</h4>
                     <div class="input-field col xl6 l6 m6 s12">
                         <i class="material-icons prefix">attachment</i>
-                        <input id="icon_prefix" type="text" class="validate" value="/images/logo.png" disabled>
-                        <label for="icon_prefix">Logo Path</label>
+                        <input id="icon_prefix_logoPath" type="text" class="validate" value="/images/logo.png" disabled>
+                        <label for="icon_prefix_logoPath">Logo Path</label>
                     </div>
                     <div class="input-field col xl6 l6 m6 s12">
                         <i class="material-icons prefix">title</i>
-                        <input id="icon_prefix" type="text" class="validate">
-                        <label for="icon_prefix">Title</label>
+                        <input id="icon_prefix_title" type="text" class="validate">
+                        <label for="icon_prefix_title">Title</label>
                     </div>
                     <div class="input-field col s12">
                         <i class="material-icons prefix">description</i>
@@ -63,33 +63,285 @@
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css"> CSS
                     </div>
                     <h6>Programming Languages</h6>
-                    <div onclick="SendME(this)" class="chip">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"> C
+                    <div class="programming-languages">
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"> C
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus"> Cplusplus
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp"> Csharp
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go"> Go
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java"> Java
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript"> Javascript
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript"> Typescript
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php"> Php
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://api.iconify.design/logos-perl.svg" alt="perl"> Perl
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby"> Ruby
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala"> Scala
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"> Python
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift"> Swift
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/apple_objectivec/apple_objectivec-icon.svg" alt="objectivec"> Objectivec
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg" alt="clojure"> Clojure
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust"> Rust
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Haskell-Logo.svg" alt="haskell"> Haskell
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/coffeescript/coffeescript-original-wordmark.svg" alt="coffeescript"> Coffeescript
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/elixir-lang/elixir-lang-icon.svg" alt="elixir"> Elixir
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/erlang/erlang-official.svg" alt="erlang"> Erlang
+                        </div>
                     </div>
 
                     <h6>Back-end Web Frameworks and Libraries</h6>
-                    <div onclick="SendME(this)" class="chip">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"> C
+                    <div class="backend-frameworks">
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs"> Nodejs
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring"> Spring
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express"> Express
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg" alt="django"> Django
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet"> Dotnet
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron"> Electron
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://symfony.com/logos/symfony_black_03.svg" alt="symfony"> Symfony
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel"> Laravel
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" alt="codeigniter"> Codeigniter
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails"> Rails
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask"> Flask
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg" alt="quasar"> Quasar
+                        </div>
                     </div>
 
                     <h6>Front-end Web Frameworks and Libraries</h6>
-                    <div onclick="SendME(this)" class="chip">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"> C
+                    <div class="frontend-frameworks">
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs"> Vuejs
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react"> React
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg" alt="angularjs"> Angularjs
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular"> Angular
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/backbonejs/backbonejs-original-wordmark.svg" alt="backbonejs"> Backbonejs
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap"> Bootstrap
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://bestofjs.org/logos/vuetify.svg" alt="vuetify"> Vuetify
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://cdn.worldvectorlogo.com/logos/pug.svg" alt="pug"> Pug
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" alt="gulp"> Gulp
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass"> Sass
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux"> Redux
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel"> Babel
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind"> Tailwind
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg" alt="materialize"> Materialize
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://iconape.com/wp-content/png_logo_vector/bulma-logo.png" alt="bulma"> Bulma
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg" alt="d3js"> D3js
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs"> Chartjs
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/Hardik0307/Hardik0307/master/assets/canvasjs-charts.svg" alt="canvasjs"> Canvasjs
+                        </div>
                     </div>
 
                     <h6>Mobile Development</h6>
-                    <div onclick="SendME(this)" class="chip">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"> C
+                    <div class="mobile-development">
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android"> Android
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter"> Flutter
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/nativescript.svg" alt="nativescript"> Nativescript
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/xamarin.svg" alt="xamarin"> Xamarin
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative"> Reactnative
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ionic_Logo.svg" alt="ionic"> Ionic
+                        </div>
                     </div>
 
                     <h6>Databases</h6>
-                    <div onclick="SendME(this)" class="chip">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"> C
+                    <div class="databases">
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb"> Mongodb
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql"> Mysql
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql"> Postgresql
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis"> Redis
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle"> Oracle
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb"> Mariadb
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite"> Sqlite
+                        </div>
                     </div>
 
                     <h6>AI/ML</h6>
-                    <div onclick="SendME(this)" class="chip">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"> C
+                    <div class="ai-ml">
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow"> Tensorflow
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch"> Pytorch
+                        </div>
+
+                        <div onclick="SendME(this)" class="chip">
+                            <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv"> Opencv
+                        </div>
                     </div>
 
                     <h6>Other Popular Tec</h6>
@@ -99,7 +351,7 @@
                 </div>
             </div>
             <div class="generate">
-                <button class="btn black-text blue white-text">Genrate</button>
+                <button id="generate" class="btn black-text blue white-text">Genrate</button>
             </div>
         </section>
     </main>
