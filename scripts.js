@@ -23,25 +23,25 @@ document.getElementById("generate").onclick = function() {
         arrIMG.push(item.outerHTML)
     }
     readme_context = `
-    <div align="center">
-        <a href="#">
-            <img src="${logo_img_path}" alt="Logo" width="80" height="80">
-        </a>
-        <h1>${title}</h1>
-    </div>
-    <!-- Project Description -->
-    <div>
-        <p align="center">
-            ${description}
-        </p>
-    </div>
-    <br>
-    <br>
-    <!-- Project Details -->
-    <div align="center">
-        <h2><strong>Technologies: </strong></h2>
-        ${arrIMG}
-    </div>
+<div align="center">
+<a href="#">
+<img src="${logo_img_path}" alt="Logo" width="80" height="80">
+</a>
+<h1>${title}</h1>
+</div>
+<!-- Project Description -->
+<div>
+<p align="center">
+${description}
+</p>
+</div>
+<br>
+<br>
+<!-- Project Details -->
+<div align="center">
+<h2><strong>Technologies: </strong></h2>
+${arrIMG}
+</div>
     `
 
     function copyToClipboard(text) {
