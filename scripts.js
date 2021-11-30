@@ -11,7 +11,7 @@ document.getElementById("generate").onclick = function() {
     logo_img_path = document.getElementById("icon_prefix_logoPath").value
     title = document.getElementById("icon_prefix_title").value
     description = document.getElementById("textarea1").value
-
+    arrIMG = new Array()
 
 
     for (let index = 0; index < tecList.length; index++) {
@@ -19,10 +19,8 @@ document.getElementById("generate").onclick = function() {
         item = element.firstElementChild
         item.width = 40
         item.height = 40
-        console.log(item);
-        var a_tag = document.createElement('a')
-        a_tag.innerHTML = item
-        console.log(a_tag);
+            // console.log(item);
+        arrIMG.push(item.outerHTML)
     }
     readme_context = `
     <div align="center">
@@ -42,12 +40,18 @@ document.getElementById("generate").onclick = function() {
     <!-- Project Details -->
     <div align="center">
         <h2><strong>Technologies: </strong></h2>
-        ${description}
+        ${arrIMG}
     </div>
     `
 
+    function copyToClipboard(text) {
+        const elem = document.createElement('textarea');
+        elem.value = text;
+        document.body.appendChild(elem);
+        elem.select();
+        document.execCommand('copy');
+        document.body.removeChild(elem);
+    }
 
-
-
-    // document.write(readme_context)
+    copyToClipboard(readme_context)
 }
