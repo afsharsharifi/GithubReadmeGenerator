@@ -54,4 +54,6 @@ ${arrIMG}
     }
 
     copyToClipboard(readme_context)
+
+    document.getElementById("generator-box").innerHTML = '<button class="btn green white-text"><i class="material-icons left">check</i>Copyied to Clipboard</button>'
 }
