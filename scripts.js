@@ -40,7 +40,7 @@ ${description}
 <!-- Project Details -->
 <div align="center">
 <h2><strong>Technologies: </strong></h2>
-${arrIMG}
+${arrIMG.slice(Math.max(arrIMG.length - 5, 0)).join(" ")}
 </div>
     `
 
