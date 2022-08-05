@@ -1,0 +1,8 @@
+Windows
+Linux
+PyQT
+Electron.js
+WPF
+Swing
+PySide
+wxPython
