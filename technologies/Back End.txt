@@ -1,27 +1,27 @@
-Node.js
-Express.js
-Nest.js
-ASP.NET Core
-ASP.NET
-Django
-Flask
-Laravel
-FastAPI
-Ruby on Rails
-Blazor
-Symfony
-Phoenix
-Fastify
-Deno
-Play Framework
-Spring
-CodeIgniter
-Yii
-CakePHP
-Slim
-Gin
-FeathersJS
-LoopBack
-AdonisJS
 AIOHTTP
+ASP.NET
+ASP.NET Core
+AdonisJS
+Blazor
+CakePHP
+CodeIgniter
+Deno
+Django
+Express.js
+FastAPI
+Fastify
+FeathersJS
+Flask
+Gin
+Laravel
+LoopBack
+Nest.js
+Node.js
+Phoenix
+Play Framework
+Ruby on Rails
 Sanic
+Slim
+Spring
+Symfony
+Yii

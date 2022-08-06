@@ -1,8 +1,7 @@
-Windows
-Linux
-PyQT
 Electron.js
-WPF
-Swing
+Linux
+Mac
+PyQT
 PySide
+Windows
 wxPython

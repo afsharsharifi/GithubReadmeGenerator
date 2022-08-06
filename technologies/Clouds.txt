@@ -1,14 +1,10 @@
 AWS
-Microsoft Azure
-Google Cloud
-Firebase
-Heroku
 DigitalOcean
-VMware
-Managed Hosting
-Linode
-OVH
-Oracle Cloud
-OpenStack
+Firebase
+Google Cloud
+Heroku
 IBM
-Colocation
+Linode
+Microsoft Azure
+OVH
+OpenStack

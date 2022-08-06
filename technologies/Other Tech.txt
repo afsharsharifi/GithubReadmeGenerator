@@ -1,20 +1,18 @@
-TensorFlow
-PyTorch
-pandas
-seaborn
-OpenCV
-scikit-learn
-NumPy
-Keras
-D3.js
-Chart.js
-CanvasJS
-Grafana
-Celery
-Requests
-Beautiful Soup
-Scrapy
 Arduino
+Beautiful Soup
+Celery
+Chart.js
+D3.js
 Git
+Grafana
+Keras
+NumPy
+OpenCV
+pandas
+PyTorch
+Requests
+scikit-learn
+Scrapy
+TensorFlow
 Unity
 Unreal

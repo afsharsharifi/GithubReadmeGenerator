@@ -1,12 +1,11 @@
 Android
-IOS
-Flutter
-React Native
-Xamarin
-Ionic
-NativeScript
-Kivy
 Apache Cordova
-jQuery Mobile
+Flutter
+IOS
+Ionic
+Kivy
+NativeScript
 Onsen UI
 Quasar
+React Native
+Xamarin
