@@ -853,6 +853,10 @@
     <!-- My Script -->
     <script src="./scripts.js"></script>
     <script>
+        let sParameter = "Beautiful Soup.png"
+        sParameter = encodeURIComponent(sParameter.trim())
+    </script>
+    <script>
         function changeDocLang(languageCode, direction) {
             document.documentElement.setAttribute("lang", languageCode);
             document.documentElement.setAttribute("dir", direction);

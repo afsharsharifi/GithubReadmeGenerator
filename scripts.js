@@ -12,13 +12,17 @@ function generateReadme() {
     title = document.getElementById("title").value
     description = document.getElementById("description").value
     techList = document.querySelectorAll(".selected-tech")
+    githubRepo = "https://afsharsharifi.github.io/GithubReadmeGenerator/icons/"
     arrIMG = new Array()
     for (let index = 0; index < techList.length; index++) {
         const element = techList[index];
         item = element.firstElementChild
         item.width = 40
-        // item.height = 40
-        // console.log(item);
+        image_name = item.src.split("/").slice(-1)[0]
+        new_src = githubRepo + image_name
+        item.src = new_src
+        // image = item.outerHTML
+        // console.log(image);
         arrIMG.push(item.outerHTML)
     }
 
