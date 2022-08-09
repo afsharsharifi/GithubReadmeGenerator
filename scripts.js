@@ -1,4 +1,4 @@
-function SendME(element) {
+function selectSkill(element) {
     if (element.classList.contains("selected-skill")) {
         element.classList.remove("selected-skill");
     } else {
@@ -19,7 +19,7 @@ document.getElementById("generate").onclick = function() {
         item = element.firstElementChild
         item.width = 40
         item.height = 40
-            // console.log(item);
+        // console.log(item);
         arrIMG.push(item.outerHTML)
     }
     readme_context = `

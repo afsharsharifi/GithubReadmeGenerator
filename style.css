@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
 header {
     height: 40vh;
     background-image: url('./images/header-background.jpg');
@@ -44,6 +51,63 @@ header>.controller-layer {
     }
 }
 
+
+.custom-input {
+    text-align: center;
+}
+
+
+.custom-input input {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.custom-input textarea {
+    width: 95%;
+    height: 200px;
+}
+
+.custom-input input:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+
+.tech-item {
+    display: inline-block;
+    height: 32px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 32px;
+    padding: 0 12px;
+    border-radius: 16px;
+    background-color: #e4e4e4;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tech-item img {
+    padding: 5px;
+}
+
+.tech-item>img {
+    float: left;
+    margin: 0 8px 0 -12px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.selected-skill {
+    background-color: grey;
+}
 
 @media screen and (max-width: 992px) {
 

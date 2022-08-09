@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./images/Logo.png">
     <!-- MDB -->
     <link id="theme" href="./vendor/mdb/css/mdb.min.css" rel="stylesheet" />
     <!-- My Style -->
@@ -43,14 +41,474 @@
         </div>
     </header>
 
-    <section id="technologies">
+    <h3 class="text-center my-3 mt-5">This is Repository Header</h3>
+    <section id="header" class="container mb-5">
+        <div class="row">
+            <div class="col-12 col-md-6 custom-input mb-4">
+                <label for="logo-path"><i class="fa fa-link"></i></label>
+                <input type="text" id="logo-path" placeholder="/images/logo.png">
+            </div>
+            <div class="col-12 col-md-6 custom-input mb-4">
+                <label for="title"><i class="fas fa-heading"></i></label>
+                <input type="text" id="title" placeholder="Title">
+            </div>
+            <div class="col-12 custom-input d-flex align-items-start gap-2 justify-content-center">
+                <label for="descryption"><i class="fa fa-file"></i></label>
+                <textarea id="descryption" placeholder="Descryption"></textarea>
+            </div>
+        </div>
+    </section>
 
+    <h3 class="text-center my-3 mt-5">Select Technologies You Used to Create This Repository</h3>
+    <section id="technologies" class="container mb-5">
+        <h5 class="mb-3">Programming Languages</h5>
+        <div id="programming-languages">
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/C.svg" alt="C">
+                <span>C</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/CSharp.svg" alt="C#">
+                <span>C#</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/C++.svg" alt="C++">
+                <span>C++</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Clojure.svg" alt="Clojure">
+                <span>Clojure</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/CoffeeScript.svg" alt="CoffeeScript">
+                <span>CoffeeScript</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Crystal.svg" alt="Crystal">
+                <span>Crystal</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Dart.svg" alt="Dart">
+                <span>Dart</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Elixir.svg" alt="Elixir">
+                <span>Elixir</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Erlang.svg" alt="Erlang">
+                <span>Erlang</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/FSharp.svg" alt="F#">
+                <span>F#</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Go.svg" alt="Go">
+                <span>Go</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Haskell.svg" alt="Haskell">
+                <span>Haskell</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Java.svg" alt="Java">
+                <span>Java</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/JavaScript.svg" alt="JavaScript">
+                <span>JavaScript</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Julia.svg" alt="Julia">
+                <span>Julia</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Kotlin.svg" alt="Kotlin">
+                <span>Kotlin</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Lisp.svg" alt="Lisp">
+                <span>Lisp</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Lua.svg" alt="Lua">
+                <span>Lua</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Matlab.svg" alt="Matlab">
+                <span>Matlab</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Nim.svg" alt="Nim">
+                <span>Nim</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Objective-C.svg" alt="Objective-C">
+                <span>Objective-C</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/PHP.svg" alt="PHP">
+                <span>PHP</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Perl.svg" alt="Perl">
+                <span>Perl</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Python.svg" alt="Python">
+                <span>Python</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/R.svg" alt="R">
+                <span>R</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Ruby.svg" alt="Ruby">
+                <span>Ruby</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Rust.svg" alt="Rust">
+                <span>Rust</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Scala.svg" alt="Scala">
+                <span>Scala</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Solidity.svg" alt="Solidity">
+                <span>Solidity</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Swift.svg" alt="Swift">
+                <span>Swift</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/TypeScript.svg" alt="TypeScript">
+                <span>TypeScript</span>
+            </div>
+        </div>
+
+        <div class="m-5"></div>
+
+        <h5 class="mb-3">Front End</h5>
+        <div id="front-end">
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Angular.svg" alt="Angular">
+                <span>Angular</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Angular.js.svg" alt="Angular.js">
+                <span>Angular.js</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Babel.svg" alt="Babel">
+                <span>Babel</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Backbone.js.svg" alt="Backbone.js">
+                <span>Backbone.js</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Bootstrap.svg" alt="Bootstrap">
+                <span>Bootstrap</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Bulma.svg" alt="Bulma">
+                <span>Bulma</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/CSS.svg" alt="CSS">
+                <span>CSS</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Ember.js.svg" alt="Ember.js">
+                <span>Ember.js</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Foundation.svg" alt="Foundation">
+                <span>Foundation</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Gulp.svg" alt="Gulp">
+                <span>Gulp</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/HTML.svg" alt="HTML">
+                <span>HTML</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/jQuery.svg" alt="jQuery">
+                <span>jQuery</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Materialize.svg" alt="Materialize">
+                <span>Materialize</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Milligram.svg" alt="Milligram">
+                <span>Milligram</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/MUI.svg" alt="MUI">
+                <span>MUI</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Pug.svg" alt="Pug">
+                <span>Pug</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/QT.svg" alt="QT">
+                <span>QT</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/React.js.svg" alt="React.js">
+                <span>React.js</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Redux.svg" alt="Redux">
+                <span>Redux</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Sass.svg" alt="Sass">
+                <span>Sass</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Semantic UI.svg" alt="Semantic UI">
+                <span>Semantic UI</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/styled-components.svg" alt="styled-components">
+                <span>styled-components</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Svelte.svg" alt="Svelte">
+                <span>Svelte</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Tailwind.svg" alt="Tailwind">
+                <span>Tailwind</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/UIkit.svg" alt="UIkit">
+                <span>UIkit</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Vue.js.svg" alt="Vue.js">
+                <span>Vue.js</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Vuetify.svg" alt="Vuetify">
+                <span>Vuetify</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Webpack.svg" alt="Webpack">
+                <span>Webpack</span>
+            </div>
+        </div>
+
+        <div class="m-5"></div>
+
+        <h5 class="mb-3">Back End</h5>
+        <div id="back-end">
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/AIOHTTP.svg" alt="AIOHTTP">
+                <span>AIOHTTP</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/ASP.NET.svg" alt="ASP.NET">
+                <span>ASP.NET</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/ASP.NET Core.svg" alt="ASP.NET Core">
+                <span>ASP.NET Core</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/AdonisJS.svg" alt="AdonisJS">
+                <span>AdonisJS</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Blazor.svg" alt="Blazor">
+                <span>Blazor</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/CakePHP.svg" alt="CakePHP">
+                <span>CakePHP</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/CodeIgniter.svg" alt="CodeIgniter">
+                <span>CodeIgniter</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Deno.svg" alt="Deno">
+                <span>Deno</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Django.svg" alt="Django">
+                <span>Django</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Express.js.svg" alt="Express.js">
+                <span>Express.js</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/FastAPI.svg" alt="FastAPI">
+                <span>FastAPI</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Fastify.svg" alt="Fastify">
+                <span>Fastify</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/FeathersJS.svg" alt="FeathersJS">
+                <span>FeathersJS</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Flask.svg" alt="Flask">
+                <span>Flask</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Gin.png" alt="Gin">
+                <span>Gin</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Laravel.svg" alt="Laravel">
+                <span>Laravel</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/LoopBack.svg" alt="LoopBack">
+                <span>LoopBack</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Nest.js.svg" alt="Nest.js">
+                <span>Nest.js</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Node.js.svg" alt="Node.js">
+                <span>Node.js</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Phoenix.svg" alt="Phoenix">
+                <span>Phoenix</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Play Framework.svg" alt="Play Framework">
+                <span>Play Framework</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Ruby on Rails.svg" alt="Ruby on Rails">
+                <span>Ruby on Rails</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Sanic.png" alt="Sanic">
+                <span>Sanic</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Slim.svg" alt="Slim">
+                <span>Slim</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Spring.svg" alt="Spring">
+                <span>Spring</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Symfony.svg" alt="Symfony">
+                <span>Symfony</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Yii.svg" alt="Yii">
+                <span>Yii</span>
+            </div>
+        </div>
+
+
+        <div class="m-5"></div>
+
+        <h5 class="mb-3">Databases</h5>
+        <div id="databases">
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Cassandra.svg" alt="Cassandra">
+                <span>Cassandra</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/CockroachDB.svg" alt="CockroachDB">
+                <span>CockroachDB</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/CouchDB.svg" alt="CouchDB">
+                <span>CouchDB</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Couchbase.svg" alt="Couchbase">
+                <span>Couchbase</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/DynamoDB.svg" alt="DynamoDB">
+                <span>DynamoDB</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Elasticsearch.svg" alt="Elasticsearch">
+                <span>Elasticsearch</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Hive.svg" alt="Hive">
+                <span>Hive</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/MariaDB.svg" alt="MariaDB">
+                <span>MariaDB</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/MongoDB.svg" alt="MongoDB">
+                <span>MongoDB</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/MySQL.svg" alt="MySQL">
+                <span>MySQL</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Neo4j.svg" alt="Neo4j">
+                <span>Neo4j</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/NuoDB.svg" alt="NuoDB">
+                <span>NuoDB</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Oracle.svg" alt="Oracle">
+                <span>Oracle</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/PostgreSQL.svg" alt="PostgreSQL">
+                <span>PostgreSQL</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Realm.svg" alt="Realm">
+                <span>Realm</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/Redis.svg" alt="Redis">
+                <span>Redis</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/SQL Server.svg" alt="SQL Server">
+                <span>SQL Server</span>
+            </div>
+            <div onclick="selectSkill(this)" class="tech-item">
+                <img src="./icons/SQLite.svg" alt="SQLite">
+                <span>SQLite</span>
+            </div>
+        </div>
     </section>
 
 
 
     <!-- MDB -->
     <script type="text/javascript" src="./vendor/mdb/js/mdb.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7f6e784332.js" crossorigin="anonymous"></script>
+    <!-- My Script -->
+    <script src="./scripts.js"></script>
     <script>
         function changeDocLang(languageCode, direction) {
             document.documentElement.setAttribute("lang", languageCode);
