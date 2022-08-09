@@ -1,59 +1,67 @@
 function selectSkill(element) {
-    if (element.classList.contains("selected-skill")) {
-        element.classList.remove("selected-skill");
+    if (element.classList.contains("selected-tech")) {
+        element.classList.remove("selected-tech");
     } else {
-        element.classList.add("selected-skill");
+        element.classList.add("selected-tech");
     }
 }
 
-document.getElementById("generate").onclick = function() {
-    tecList = document.querySelectorAll(".selected-skill")
-    logo_img_path = document.getElementById("icon_prefix_logoPath").value
-    title = document.getElementById("icon_prefix_title").value
-    description = document.getElementById("textarea1").value
+
+function generateReadme() {
+    logo = document.getElementById("logo-path").value
+    title = document.getElementById("title").value
+    description = document.getElementById("description").value
+    techList = document.querySelectorAll(".selected-tech")
     arrIMG = new Array()
-
-
-    for (let index = 0; index < tecList.length; index++) {
-        const element = tecList[index];
+    for (let index = 0; index < techList.length; index++) {
+        const element = techList[index];
         item = element.firstElementChild
         item.width = 40
-        item.height = 40
+        // item.height = 40
         // console.log(item);
         arrIMG.push(item.outerHTML)
     }
-    readme_context = `
+
+    let result = `
 <div align="center">
 <a href="#">
-<img src="${logo_img_path}" alt="Logo" width="80" height="80">
+<img src="${logo}" alt="Logo" width="80" height="80">
 </a>
 <h1>${title}</h1>
 </div>
 <!-- Project Description -->
 <div>
-<p align="center">
+<pre align="center">
 ${description}
-</p>
+</pre>
 </div>
 <br>
 <br>
 <!-- Project Details -->
 <div align="center">
-<h2><strong>Technologies: </strong></h2>
+<h2>Technologies: </h2>
 ${arrIMG.slice(Math.max(arrIMG.length - 5, 0)).join(" ")}
 </div>
-    `
+`
 
-    function copyToClipboard(text) {
-        const elem = document.createElement('textarea');
-        elem.value = text;
-        document.body.appendChild(elem);
-        elem.select();
-        document.execCommand('copy');
-        document.body.removeChild(elem);
-    }
+    return result
+}
 
-    copyToClipboard(readme_context)
 
-    document.getElementById("generator-box").innerHTML = '<button class="btn green white-text"><i class="material-icons left">check</i>Copyied to Clipboard</button>'
+function copyToClipboard(text) {
+    const elem = document.createElement('textarea');
+    elem.value = text;
+    document.body.appendChild(elem);
+    elem.select();
+    document.execCommand('copy');
+    document.body.removeChild(elem);
+}
+
+
+document.getElementById("update-preview").onclick = function() {
+    document.getElementById("preview").innerHTML = generateReadme()
+}
+
+document.getElementById("copy-preview").onclick = function() {
+    copyToClipboard(generateReadme())
 }
